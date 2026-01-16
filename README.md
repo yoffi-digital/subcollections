@@ -15,6 +15,7 @@ A Shopify section that renders a horizontal carousel of subcollections as "bubbl
 
 ---
 
+
 ## Theme Adapter
 
 The carousel uses a **theme adapter pattern**. Adapters handle only **theme-specific markup and integration** (container element, Prev/Next buttons, icons), while core behavior (sizing, spacing, overflow, responsiveness) is handled by shared JS and CSS.
@@ -43,6 +44,8 @@ The carousel uses a **theme adapter pattern**. Adapters handle only **theme-spec
 Basically the only thing that needs to be updated is: creating a new adapter snippet and some styles (fonts/font-sizes and so on)
 
 ---
+
+<img width="802" height="710" alt="image" src="https://github.com/user-attachments/assets/55008740-adab-432f-99ad-be5345334675" />
 
 ## Files & Responsibilities
 
@@ -92,6 +95,7 @@ When adapting to another theme, create a new adapter snippet, but keep all CSS c
 
 ### 4) CSS
 - `subcollections-bubbles.css`
+- (better to create a .scss and wrap all css from this file in .subcollections__container{ } )
 
 ### 4) svg
 - `icon-carret.svg` (for native adapter)
@@ -116,7 +120,7 @@ When adapting to another theme, create a new adapter snippet, but keep all CSS c
 1. **JS**
    - Add `subcollection-bubbles.js` to `assets/`
 2. **CSS**
-   - Include `subcollection-bubbles.css` CSS in your theme or section stylesheet
+   - Include `subcollection-bubbles.css` CSS in your theme or section stylesheet (better to create a .scss and wrap all css from this file in .subcollections__container{ } )
 3. **Section**
    - Copy `sections/subcollection-bubbles.liquid`
 4. **Snippets**
