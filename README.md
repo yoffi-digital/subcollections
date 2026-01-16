@@ -95,6 +95,7 @@ When adapting to another theme, create a new adapter snippet, but keep all CSS c
 
 ### 4) CSS
 - `subcollections-bubbles.css`
+- (better to create a .scss and wrap all css from this file in .subcollections__container{ } )
 
 ### 4) svg
 - `icon-carret.svg` (for native adapter)
@@ -119,7 +120,7 @@ When adapting to another theme, create a new adapter snippet, but keep all CSS c
 1. **JS**
    - Add `subcollection-bubbles.js` to `assets/`
 2. **CSS**
-   - Include `subcollection-bubbles.css` CSS in your theme or section stylesheet
+   - Include `subcollection-bubbles.css` CSS in your theme or section stylesheet (better to create a .scss and wrap all css from this file in .subcollections__container{ } )
 3. **Section**
    - Copy `sections/subcollection-bubbles.liquid`
 4. **Snippets**
