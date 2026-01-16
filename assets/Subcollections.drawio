@@ -11,7 +11,7 @@
         </mxCell>
         <mxCell id="u5zed_Jm0GdZF6e3XEBS-8" connectable="0" parent="u5zed_Jm0GdZF6e3XEBS-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="select" vertex="1">
           <mxGeometry relative="1" x="-0.1287" y="2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u5zed_Jm0GdZF6e3XEBS-2" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeWidth=2;" value="Shopify section&lt;div&gt;Subcollectiom Bubbles&lt;/div&gt;" vertex="1">
@@ -64,14 +64,24 @@
         <mxCell id="u5zed_Jm0GdZF6e3XEBS-22" edge="1" parent="1" source="u5zed_Jm0GdZF6e3XEBS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="u5zed_Jm0GdZF6e3XEBS-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="u5zed_Jm0GdZF6e3XEBS-26" connectable="0" parent="u5zed_Jm0GdZF6e3XEBS-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="render" vertex="1">
+          <mxGeometry relative="1" x="0.8316" y="-1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="u5zed_Jm0GdZF6e3XEBS-23" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Subcollection card" vertex="1">
-          <mxGeometry height="100" width="217.5" x="273.75" y="490" as="geometry" />
+          <mxGeometry height="100" width="217.5" x="273.75" y="500" as="geometry" />
         </mxCell>
         <mxCell id="u5zed_Jm0GdZF6e3XEBS-24" parent="u5zed_Jm0GdZF6e3XEBS-23" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+&#39;subcollection-bubble-card&#39; snippet&lt;br&gt;+Renders subcollection bubble (card)" vertex="1">
           <mxGeometry height="50" width="217.5" y="50" as="geometry" />
         </mxCell>
         <mxCell id="u5zed_Jm0GdZF6e3XEBS-25" edge="1" parent="1" source="u5zed_Jm0GdZF6e3XEBS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="u5zed_Jm0GdZF6e3XEBS-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5zed_Jm0GdZF6e3XEBS-27" connectable="0" parent="u5zed_Jm0GdZF6e3XEBS-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="render" vertex="1">
+          <mxGeometry relative="1" x="-0.1333" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
