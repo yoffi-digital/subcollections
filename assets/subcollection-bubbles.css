@@ -45,6 +45,11 @@
   padding: 0;
 }
 
+.floating-controls-container__control {
+  position: absolute;
+  z-index: 2;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .floating-controls-container--on-hover .floating-controls-container__control {
     opacity: 0;
@@ -70,21 +75,6 @@
   background-color: var(--subcollection-button-color);
   color: var(--subcollection-arrow-color);
 }
-
-
-.carousel-controls-wrapper {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  pointer-events: none;
-}
-
-.carousel-controls-wrapper>* {
-  pointer-events: auto;
-}
-
 
 /* =========================================================
    Native prev/next button

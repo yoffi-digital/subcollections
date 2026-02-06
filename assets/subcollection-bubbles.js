@@ -26,7 +26,9 @@ class SubcollectionBubblesCarousel extends HTMLElement {
     document.addEventListener("shopify:section:load", this.handleResize);
 
     if (this.prev && this.next) {
-      this.carousel.addEventListener("scroll", this.handleScroll, { passive: true });
+      this.carousel.addEventListener("scroll", this.handleScroll, {
+        passive: true,
+      });
       this.prev.addEventListener("click", this.handlePrevClick);
       this.next.addEventListener("click", this.handleNextClick);
     }
@@ -107,20 +109,24 @@ class SubcollectionBubblesCarousel extends HTMLElement {
     carousel.style.setProperty("--carousel-width", `${carouselWidth}px`);
     carousel.style.setProperty(
       "--desktop-total-gap-width",
-      `${totalGapWidth.desktop}px`
+      `${totalGapWidth.desktop}px`,
     );
     carousel.style.setProperty(
       "--tablet-total-gap-width",
-      `${totalGapWidth.tablet}px`
+      `${totalGapWidth.tablet}px`,
     );
     carousel.style.setProperty(
       "--mobile-total-gap-width",
-      `${totalGapWidth.mobile}px`
+      `${totalGapWidth.mobile}px`,
     );
+
+    if (this.prev && this.next) {
+      this.updateBtnState();
+    }
   }
 }
 
 customElements.define(
   "subcollection-bubbles-carousel",
-  SubcollectionBubblesCarousel
+  SubcollectionBubblesCarousel,
 );
